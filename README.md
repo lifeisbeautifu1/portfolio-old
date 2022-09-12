@@ -1,1 +1,1 @@
-### [Link](https://alexey-my-portfolio.netlify.app/).
+### [Link](https://alexey-my-portfolio.netlify.app/)
