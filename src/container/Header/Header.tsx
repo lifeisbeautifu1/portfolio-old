@@ -33,7 +33,7 @@ const Header = () => (
         </div>
 
         <div className="tag-cmp app__flex">
-          <h1>Who Am I? 🤠</h1>
+          <h1 style={{ width: '100%', textAlign: 'right' }}>Who Am I? 🤠</h1>
           <p className="p-text">
             Web Developer <span style={{ fontSize: 20 }}>🤓</span>
           </p>
