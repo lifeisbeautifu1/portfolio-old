@@ -34,7 +34,7 @@ import nb from '../assets/nb.png';
 import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
 
-export default {
+const data = {
   email,
   mobile,
   api,
@@ -68,3 +68,5 @@ export default {
   skype,
   spotify,
 };
+
+export default data;
