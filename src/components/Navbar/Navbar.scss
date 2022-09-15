@@ -20,19 +20,19 @@
   justify-content: flex-start;
   align-items: center;
 
-  div {
-    font-size:20px;
-    span {
-      color: var(--gray-color);
-    }
+  // div {
+  //   font-size:20px;
+  //   span {
+  //     color: var(--gray-color);
+  //   }
    
-    span:nth-child(2) {
-      padding: 0 5px;
-      font-weight: 600;
-      font-size: 20px;
-      color: var(--secondary-color);
-    }
-  }
+  //   span:nth-child(2) {
+  //     padding: 0 5px;
+  //     font-weight: 600;
+  //     font-size: 20px;
+  //     color: var(--secondary-color);
+  //   }
+  // }
 
   img {
     width: 90px;
