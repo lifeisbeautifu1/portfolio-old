@@ -33,7 +33,7 @@ const Skills = () => {
       <h2 className="head-text">Skills</h2>
 
       <div className="app__skills-container">
-        <motion.div className="app__skills-list">
+        <div className="app__skills-list">
           {skills.map((skill) => (
             <motion.div
               whileInView={{ opacity: [0, 1] }}
@@ -41,17 +41,20 @@ const Skills = () => {
               className="app__skills-item app__flex"
               key={skill.name}
             >
-              <div
+              <motion.div
+                drag
                 className="app__flex"
                 style={{ backgroundColor: skill.bgColor }}
               >
                 {/* @ts-ignore */}
                 <img src={urlFor(skill.icon)} alt={skill.name} />
-              </div>
-              <p className="p-text">{skill.name}</p>
+              </motion.div>
+              <motion.p drag className="p-text">
+                {skill.name}
+              </motion.p>
             </motion.div>
           ))}
-        </motion.div>
+        </div>
         {/* <div className="app__skills-exp">
           {experiences.map((experience) => (
             <motion.div className="app__skills-exp-item" key={experience.year}>
